@@ -74,5 +74,6 @@ int main()
     int a[8] = {2,3,233,2352,737,10,4,-733};
     InSoSieuNguyenTo(a,8);
     TongCacSoSSNT(a,8);
+    cout << CheckSieuSngt(2852);
     return 0;
 }
