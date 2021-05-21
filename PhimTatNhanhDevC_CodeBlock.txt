@@ -1,0 +1,24 @@
+*Dev C++
+- Comment: bôi đen  => Ctrl + / (lần nữa để hủy)
+- Nhân đôi dòng hiện tại = > Ctrl + E
+- Xóa dòng hiện tại = > Ctrl + D
+- Đổi vị trí 2 dòng = > Ctrl + Shift + Mũi tên điều hướng
+- Chạy ct : F10
+- Chạy và biên dịch F11
+- Format code : Ctrl + Shift + A
+- Chỉnh sửa để Ctrl + N có code sẵn phần mở đầu Tool -> Edit Option -> Snippets -> Default Code -> Tích ô Insert th .... Viết code mẫu sẵn bên dưới ! ->  Ok
+
+
+*Code::Block (dòng hiện tại là dòng con trỏ chuột đang nháy)
+- Comment: bôi đen = > Ctrl + Shift + C
+- UnComment : bôi đen = > Ctrl + Shift + X
+- Nhân đôi dòng hiện tại = > Ctr + D (duplicate)
+- Xóa dòng hiện tại = > Ctrl + Shift + L or Ctrl + L
+- Đổi vị trí 2 dòng = > Ctrl + T (transpose)
+- Di chuyển dòng hiện tai = >  Alt +  điều hướng mũi tên
+- Gợi í code , hàm có sẵn : Ctrl + Space
+- Chạy ct : Ctrl + F10
+- Chạy và biên dịch : F9
+- Format code : Kích Plugins -> source code formater
+
+- Dùng một IDE cái thôi nha mọi người ko loạn phím tắt :(
