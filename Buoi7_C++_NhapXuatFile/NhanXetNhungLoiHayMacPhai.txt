@@ -1,0 +1,20 @@
+-Bài 1 : 
+	+ Nên xuất dạng danh sách bảng đối với các mảng dữ liệu để dễ nhìn hơn
+-Bài 2 :
+	+ Thu hồi cấp phát nhớ đúng 
+	+ Cần phân biệt ghi bổ sung ( ghi tiếp nối vào cuối file append)
+	+ Nếu đề chỉ là đọc file chứ không thao tác gì thì đọc theo dòng cho dễ , khỏi phải đọc vào mảng 
+-Bài 3 :
+	+ Thu hồi cấp phát nhớ đúng
+	+ Thay thế xảy ra khi nào ? ( khi có các phần tử chẵn ). Nếu mảng không có chẵn -> không có tbc -> không làm phẳng
+	+ Trung bình cộng lấy phần nguyên
+	+ Đọc file thôi thì lấy theo dòng dễ thao tác !
+-Bài 4 :
+	+ Chú ý là đề cho n phần tử dương ( Tập hợp các số dương là tập hợp các số thực có giá trị lớn hơn 0) vậy mảng để số thực là đúng nhất
+	+ Xóa thì cấp phát thu hồi cho đúng chắc chắn đã truyền *&a và &n ?
+	+ Thu hồi ! 
+
+--> Mọi chương trình phải thu hồi cấp phát nếu sử dụng con trỏ cấp phát
+--> Tất cả các ngoại lệ điều kiện cần được xét đến
+--> Khi truyền path trong các hàm ReadFile() , WriteFile() các bạn có thể viết là (const char *path) thay vì (char *path)
+sẽ tránh được thông báo warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]|
