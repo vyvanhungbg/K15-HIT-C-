@@ -52,13 +52,14 @@ void XoaDongK(int **&a , int &m , int n, int k)
 }
 int main()
 {
-    int **a ,  m=4 ,  n= 4;
+    int **a ,  m=4 ,  n= 7;
     a = new int *[m];
     for(int i=0;i<m;i++)
         a[i] = new int[n];
     Matrix(a,m,n);
     Show(a,m,n);
     XoaDongK(a,m,n,2);
+    XoaCotK(a,m,n,1);
     Show(a,m,n);
 
     for(int i=0;i<m;i++)

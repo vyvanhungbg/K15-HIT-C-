@@ -66,7 +66,7 @@ long fibonaci3(int n) /// cau 5 cach 3  // khong phai de quy :( day cho la 1,1,2
     int soTruocNua=1,soTruoc =1,soHienTai=2;
     if(n<2) return 1;
 
-    for(int i=2;i<n;i++)
+    for(int i=1;i<n;i++)
     {
         soHienTai = soTruoc+soTruocNua;
         soTruocNua = soTruoc;
