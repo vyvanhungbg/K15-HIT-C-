@@ -1,0 +1,2 @@
+- Nhập xuất đúng định dạng !
+- Tối ưu lại code nhé mn đây là code sinh test thui
