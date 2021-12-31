@@ -22,7 +22,7 @@ int main()
             {
                 if(a[j]<0 && a[j]>a[i])
                 {
-                    int t=a[i];
+                    float t=a[i];
                     a[i]=a[j];
                     a[j]=t;
                 }
@@ -36,7 +36,7 @@ int main()
 //        {
 //            if(a[i] < 0 && a[j]<0 && a[j]>a[i])
 //            {
-//                int t=a[i];
+//                float t=a[i];
 //                a[i]=a[j];
 //                a[j]=t;
 //            }
