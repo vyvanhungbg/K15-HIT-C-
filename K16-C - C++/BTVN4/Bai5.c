@@ -1,27 +1,29 @@
 #include<stdio.h>
 int main()
 {
-	int n,i,j;
-	do
+    int n,i,j;
+    do
     {
-		printf("nhap n: ");
-     	scanf("%d",&n);
-	}while(n<=0 || n>=100);
-	 int a[n];
-	for(int i=0;i<n;i++)
-	{
-		do
+        printf("nhap n: ");
+        scanf("%d",&n);
+    }
+    while(n<=0 || n>=100);
+    int a[n];
+    for(int i=0; i<n; i++)
+    {
+        do
         {
             printf("a[%d]: ",i);
             scanf("%d",&a[i]);
-        }while(a[i]<=0);    /// mang yeu cau nhap la so nguyen duong
-	}
+        }
+        while(a[i]<=0);     /// mang yeu cau nhap la so nguyen duong
+    }
     int tongCacSNT=0;
     printf("Day cac SNT : ");
-	for(int i=0;i<n;i++)  // duyet mang
+    for(int i=0; i<n; i++) // duyet mang
     {
         int isSNT = 1;  /// Gia dinh ban dau la SNT;
-		for(j= 2;j*j<=a[i];j++)
+        for(j= 2; j*j<=a[i]; j++)
         {
             if(a[i] % j ==0)
             {
@@ -34,7 +36,7 @@ int main()
             tongCacSNT+=a[i];
             printf("%-5d",a[i]);
         }
-	}
-	printf("\nTong = %d ",tongCacSNT);
+    }
+    printf("\nTong = %d ",tongCacSNT);
     return 0;
 }
