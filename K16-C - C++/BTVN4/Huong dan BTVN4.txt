@@ -1,0 +1,30 @@
+﻿Hướng dẫn bài tập về nhà buổi 4
+
+Bài 1 :
+Bài này đơn giản thôi các bạn duyệt mảng bằng vòng lặp kiểm tra số thứ i và i+1 có hơn kém nhau 1 hoặc nhiều đơn vị không 
++ Chú ý điều kiện mảng tăng dần , giảm dần THEO đề là như tn
+
+Bài 2 :
+Bài này có vẻ phức tạp nhưng thực ra rất dễ . Nó là một bài sắp xếp bình thường nhưng "chỉ" áp dụng với số âm , Các số còn lại không đổi chỗ -> ĐK là số âm mới ...
+
+Bài 3 :
++B1: Tìm hiểu số chính phương là số như nào ? và làm sao để kiểm tra "1" số chính phương  -> nhắt vô vòng lặp thực hiện với nhiều số
++B2: Đề bài yeu cầu là "đếm" và "in" -> cần duyệt mảng và thực hiện 2 việc là đếm số lượng số chính phương và in ra số cp
++Tương tự số hoàn hảo 
+B1: Cần viết một đoạn mã kiểm tra 1 số hoàn hảo -> nhắt đoạn mã đó vô vòng duyệt cả mảng và thực hiện
+B2:... là đọc kĩ lại bài xem đã kiểm tra đúng các số hoàn hảo , số cp chưa SAI thi 0đ
+
+
+Bài 4:
+Bài này thì tìm số lớn nhất rồi duyệt thôi gặp số đó vì in ra "VỊ TRÍ" . Nhớ là vị trí khác với chỉ số . Vị trí 1,2,3.. | Chỉ số 0,1,2...
+
+
+Bài 5 : Tương tự pp làm như bài 3 . YÊU CẦU ĐỌC KĨ SỐ NGUYÊN TỐ LÀ SỐ Như thế nào bắt đầu từ bao nhiêu ?
+
+
+LÀM XONG :
++ Check lại điều kiện đầu vào ?
++ Check lại test case mà đề bài cho ?
++ Check giá trị biên như trong nhận xét btvn buổi trước
++ Không hiểu thì hỏi SP ?
++ Không điều kiện 0đ 

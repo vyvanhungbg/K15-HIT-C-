@@ -1,0 +1,9 @@
+﻿Câu 1 Nếu nhập vào 1 phần tử thì in ra -1 ?
+
+Câu 2 Mảng số thực ? 
+
+Câu 3 Nếu nhập vào mảng 1 số 0 thì sao ?
+
+Câu 4 Mảng số thực thì phải lấy biến thưc hứng cho biến Max
+
+Câu 5 số 1 không là số ngtoo , Điều kiện nhập vào số dương
