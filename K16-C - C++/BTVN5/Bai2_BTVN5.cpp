@@ -34,7 +34,7 @@ void ChenChiSo(int a[], int &n, int viTri, int giaTri)/// Chen lam tang so luong
 void PhanA(int a[], int &n, int x)   /// Chua ham chen ... nen can &n
 {
     int i=0;
-    while(a[i]>0 && i<n-1) /// Tim so am dau tien thi dung lai
+    while(a[i]>=0 && i<n-1) /// Tim so am dau tien thi dung lai
         i++;
     ChenChiSo(a,n,i+1,x); /// neu ma i < n chung to co xuat hien so am trong mang , khong thi nguoc lai ( +1 ) la chen vao sau
 
