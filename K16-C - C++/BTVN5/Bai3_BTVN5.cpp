@@ -48,7 +48,7 @@ void SuaCacSoMayMan(int a[], int n)
 {
     for(int i = 0; i < n; i++)
     {
-        if(SNT(a[i])==1)
+        if(SNT(TongCacChuSo(a[i]))==1)
             a[i] = -1;
     }
 }
