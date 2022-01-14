@@ -88,7 +88,7 @@ void PhanB(int a[], int n)
         if(a[n-i-1] == a[n-1]) viTriSoBeNhatDauTien--;
         i++;
     }
-    while(viTriSoLonNhatCuoiCung < viTriSoBeNhatDauTien)  /// duyet tu phan tu lon nhat cuoi cung den phan tu be nhat dau tien , vd mang 8,8,4,3,2,1 -> duuyet tu 4->6 va hoan vi dau va cuoi ta duoc 8,8, 2,3,4,1
+    while(viTriSoLonNhatCuoiCung < viTriSoBeNhatDauTien)  /// duyet tu phan tu lon nhat cuoi cung den phan tu be nhat dau tien , vd mang 8,8,4,3,2,1 -> duuyet tu 4->2 va hoan vi dau va cuoi ta duoc 8,8, 2,3,4,1
         HoanViCPP( a[viTriSoLonNhatCuoiCung++],a[viTriSoBeNhatDauTien--] );
 
 }
